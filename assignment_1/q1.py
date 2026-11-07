@@ -1,5 +1,5 @@
 # Rotate A to the right by K positions in place and return it
-def cyclicRotation(A, K):
+def solution(A, K):
     size = len(A)
     if size == 0:
         return A
